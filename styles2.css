@@ -1,0 +1,96 @@
+.rectangle {
+  margin: 70px;
+  height: 300px;
+  width: 500px;
+}
+
+.fixed-position {
+  position: fixed;
+}
+
+.border-orange {
+  border-color: orange !important;
+}
+
+.btn {
+  height: auto;
+  width: auto;
+  display: inline-block;
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 10%;
+}
+
+.btn:hover {
+  background-color: rgb(65, 56, 56);
+}
+
+.circle {
+  font-size: 15px;
+  background-color: brown;
+  color: aliceblue;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.outer-circle {
+  height: 100px;
+  width: 100px;
+  background-color: coral;
+}
+
+.clipped-img {
+  width: 100vw;
+}
+
+.clipped-img img {
+  clip-path: polygon(
+    0% 20%,
+    60% 20%,
+    60% 0%,
+    100% 50%,
+    60% 100%,
+    60% 80%,
+    0% 80%
+  );
+}
+
+.flex-example {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.bg-image {
+  background-image: url("https://images.pexels.com/photos/13368973/pexels-photo-13368973.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+
+.fixed-img {
+  position: absolute;
+  z-index: 0;
+}
+
+.rectangle-z {
+  z-index: 1;
+  background-color: black;
+  padding: 5px;
+  color: white;
+}
+
+.outer-container {
+  display: flex;
+  flex-wrap: nowrap;
+}
